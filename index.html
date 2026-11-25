@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>IMAGE EDITOR</h1>
+        </header>
+
+        <div class="container">
+
+            <div class="left">
+
+                <div class="top">
+
+                    <div class="button">
+                        <label for="img-input" class="btn">Choose File 
+
+                            <input type="file" id="img-input" accept="image/*" display="none" style="display: none;">
+
+
+                        </label>
+
+                        <button class="btn" id="reset-button">Reset</button>
+                        <button class="btn" id="download-button">Download</button>
+                    </div>
+
+                </div>
+
+                <div class="bottomm">
+                    <image-container class="image-container">
+
+
+                        <div class="i">
+                            
+                            <img src="img1.png" alt="">
+                            <p>No image selected</p>
+                        
+                        </div>
+
+                        <canvas id="img-canvas" >
+
+
+                        </canvas>
+
+                    </image-container>
+                </div>
+
+            </div>
+
+            <div class="right">
+
+                <div class="header">
+                    <h2>FILTERS</h2>
+                </div>
+
+                <div class="main-filter">
+                    <div class="filters">
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
